@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Подбор программы</title>
 </head>
 <body class="page-form">
@@ -40,7 +41,7 @@
   <main class="form-main">
     <h1 class="form-main__title">Подбор программы</h1>
     <p class="form-main__text">Заполните анкету, и мы подберем программу питания для вашего кота</p>
-    <ul class="forn-main__list input-list">
+    <ul class="form-main__list input-list">
       <li class="input-list__item">
         <label for="cat-name" class="form-main__input">ИМЯ:*
           <input type="text" id="cat-name" value="барсик">
@@ -57,22 +58,22 @@
         </label>
       </li>
     </ul>
-    <fieldset class="form-main__programm-choice programm__choice">
+    <fieldset class="form-main__programm-choice programm-choice">
       <legend class="visually-hidden">Выбор программы</legend>
-      <ul class="programm__choice__radio radio">
-        <li class="radio_item">
+      <ul class="programm-choice__radio radio">
+        <li class="radio__item">
           <label for="weight-loss">
             <input type="radio" id="weight-loss" checked value="похудение">
             <span>похудение</span>
           </label>
         </li>
-        <li class="radio_item">
+        <li class="radio__item">
           <label for="weight-gain">
             <input type="radio" id="weight-gain" value="набор массы">
             <span>набор массы</span>
           </label>
         </li>
-        <li class="radio_item">
+        <li class="radio__item">
           <label for="advice">
             <input type="radio" id="advice" value="не знаю (нужен совет)">
             <span>не знаю (нужен совет)</span>
@@ -80,7 +81,7 @@
         </li>
       </ul>
     </fieldset>
-    <fieldset class="form-main__owner-contacts">
+    <fieldset class="form-main__owner-contacts owner-contacts">
       <legend class="owner-contacts__title">Контактные данные (владельца кота)</legend>
       <ul class="owner-contacts__list">
         <li class="owner-contacts__item owner-email">
@@ -101,7 +102,7 @@
           <textarea name="textarea" id="comment" cols="30" rows="10">Расскажите обо всех повадках кота</textarea>
         </label>
       </fieldset>
-    <fieldset class="form-main__additional addiltional">
+    <fieldset class="form-main__additional additional">
       <legend class="additional__title">Дополнительно</legend>
       <ul class="additional__list">
         <li class="additional__item">
