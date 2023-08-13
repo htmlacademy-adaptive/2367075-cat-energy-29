@@ -1,0 +1,42 @@
+.programms__list {
+  @include list-unstyled;
+}
+
+.programms__item {
+  width: 570px;
+  height: 374px;
+  flex-shrink: 0;
+  text-align: center;
+  background-color: #F2F2F2;
+}
+
+.programs__title {
+  color: #000;
+  font-family: Oswald, sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.programms__text {
+  color: #000;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.programms__link {
+  color: #000;
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}

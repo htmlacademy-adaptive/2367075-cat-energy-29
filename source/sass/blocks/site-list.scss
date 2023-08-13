@@ -1,0 +1,7 @@
+.site-list {
+  @include list-unstyled;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}

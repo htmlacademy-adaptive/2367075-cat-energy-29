@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "LatoLight";
+  font-style: normal;
+  font-weight: 400;
+  src: "../fonts/lato/Lato-Regular.woff2" format("woff2"),
+  "../fonts/lato/Lato-Regular.woff" format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OswaldExtraLight";
+  font-style: normal;
+  font-weight: 400;
+  src: "../fonts/oswald/oswaldregular.woff2" format("woff2"),
+  "../fonts/oswald/oswaldregular.woff" format("woff");
+  font-display: swap;
+}
